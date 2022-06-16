@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp
+  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git
   MANIFEST_BRANCH: twrp-12.1
   DEVICE: agate
   DT_LINK: https://github.com/ImRyujinnn/recovery_device_xiaomi_agate
